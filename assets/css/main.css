@@ -3219,3 +3219,14 @@ input, select, textarea {
 			}
 
 	}
+
+/* About page layout override */
+body.about-page #header {
+    display: none; /* 隐藏左边栏 */
+}
+
+body.about-page #main {
+    margin-left: 0; /* 占满全宽 */
+    width: 100%;
+    padding: 4em; /* 可根据需要调整 */
+}
