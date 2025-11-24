@@ -3226,7 +3226,8 @@ body.about-page #header {
 }
 
 body.about-page #main {
-    margin-left: 0; /* 占满全宽 */
+    margin-left: 10%; 
+	margin-right: 10%;
     width: 100%;
     padding: 4em; /* 可根据需要调整 */
 }
